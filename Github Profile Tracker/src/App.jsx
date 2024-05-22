@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import UserProfile from './component/UserProfile'
+import Index from './component/Index'
 import './App.css'
 
 function App() {
   return (
     <>
-    <UserProfile/>
+    <Index/>
     </>
   )
 }
