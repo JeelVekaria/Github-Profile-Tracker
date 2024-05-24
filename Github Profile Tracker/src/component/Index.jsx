@@ -9,6 +9,7 @@ const index = () => {
     const [loading, setLoading] = useState(false)
     const [userData, setUserData] = useState(null)
 
+    // 
     const handleSubmit = (e) => {
         e.preventDefault();
         setShowData(`The user you are looking for is ${username} `)
@@ -23,8 +24,9 @@ const index = () => {
             setUserData(res.data)
         })
         .catch(res => {
-            console.log(res)
+            console.log(res) 
             setLoading(false)
+            setUserData(null)
         })
     }, [showData])
 
@@ -46,13 +48,7 @@ const index = () => {
                 />
                 <button onClick={handleSubmit}> Search </button>
             </div>
-
-
-            <div>
-                {showData}
-            </div>
-
-                {userData !== null ? <UserProfile user={userData}/> : "er" }
+            {userData !== null ? <UserProfile user={userData}/> : "User not Found" }
             
 
         </div>
