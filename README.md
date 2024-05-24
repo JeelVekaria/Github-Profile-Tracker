@@ -20,3 +20,5 @@ Demo Video (24s): https://github.com/JeelVekaria/Github-Profile-Tracker/assets/5
 ![image](https://github.com/JeelVekaria/Github-Profile-Tracker/assets/51273807/90fc129d-8c9e-490b-98f5-e60535e97e74)
 ![image](https://github.com/JeelVekaria/Github-Profile-Tracker/assets/51273807/6c88b64b-9d40-400e-813b-bf01df8c76a9)
 ![image](https://github.com/JeelVekaria/Github-Profile-Tracker/assets/51273807/7cd13792-b83c-4763-b617-abbf09bdaa8d)
+
+To run this application enter the Github Profile Tracker folder and run this command: `npm run dev`
